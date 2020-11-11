@@ -66,5 +66,7 @@ def test_lucas_7():
     expected = 29
     assert actual == expected
 
+def test_import2():
+    assert sum_series
 
 

@@ -19,13 +19,12 @@ def lucas(n):
     else:
         return lucas(n-1) + lucas(n-2)
 
-def sum_series():
+def sum_series(n, a=0, b=1):
     """ 
     takes in one required perameter and two optional parameters
     req perameter determines which series will be printed
     perammeters call previous functions.
     no optional arg print fibonacci
     arguments 2 and 1 print lucas
-
     """
-    pass
+    if n
