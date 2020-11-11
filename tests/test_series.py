@@ -38,5 +38,33 @@ def test_fibonacci_7():
     expected = 13
     assert actual == expected
 
-def test_import():
+def test_import1():
     assert lucas
+
+def test_lucas_0():
+    actual = lucas(0)
+    expected = 2
+    assert actual == expected
+
+def test_lucas_1():
+    actual = lucas(1)
+    expected = 1
+    assert actual == expected
+
+def test_lucas_2():
+    actual = lucas(2)
+    expected = 3
+    assert actual == expected
+
+def test_lucas_3():
+    actual = lucas(3)
+    expected = 4
+    assert actual == expected
+
+def test_lucas_7():
+    actual = lucas(7)
+    expected = 29
+    assert actual == expected
+
+
+

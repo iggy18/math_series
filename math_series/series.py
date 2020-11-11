@@ -12,7 +12,12 @@ def lucas(n):
     adds previous value to next value. starts with 2 and 1. 
     returns nth value
     """ 
-    
+    if n == 0:
+        return 2
+    if n == 1:
+        return 1
+    else:
+        return lucas(n-1) + lucas(n-2)
 
 def sum_series():
     """ 
